@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use App\Exceptions\AuthException;
-use App\Exceptions\NotFoundException;
 use App\Http\Requests\Auth\LoginRequest;
-use DomainException;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
