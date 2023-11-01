@@ -23,9 +23,7 @@ class UserService
      */
     public function create(array $data): void
     {
-        $user = User::create($data);
-
-        $user->save();
+        $this->user::create($data);
     }
 
     /**
